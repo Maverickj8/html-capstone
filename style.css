@@ -1,0 +1,117 @@
+.container {
+    background-color: rgb(224, 167, 203);
+   
+    height: 100vh;
+    
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.images {
+    margin-top: 0%;
+    border-radius: 20%;
+    
+}
+@media (min-width: 600px) {
+    
+
+.profile {
+    background-color: rgb(244, 208, 240);
+    height: 100vh;
+}
+.proof {
+    position: absolute;
+    left: 500px;
+    top: 700px;
+}
+
+.about {
+    position: relative;
+    text-align: justify;
+    color: black;
+}
+}
+.portfolio {
+    background-color: rgb(255, 215, 246);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.Header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(167, 9, 144);
+    flex-basis: 50px;
+    border-radius: 50%;
+    color: antiquewhite;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: rgb(97, 4, 91);
+    
+    
+}
+
+.coder, .determined, .future, .pic {
+    border-radius: 50%;
+   
+}
+.Contact {
+    background-color: rgb(243, 221, 238);
+    height: 100vh;
+    
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+.touch {
+    color: blueviolet;
+}
+.myself {
+    color: rgb(97, 4, 91); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+button {
+    background-color:rgb(202, 83, 194);
+    height: 40px;
+    border-radius: 20%;
+    color: rgb(232, 213, 231);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+} 
+.footer {
+    height: 50vh;
+    background-color: rgb(89, 11, 107);
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    color: rgb(252, 249, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0%;
+
+}
+
